@@ -618,6 +618,10 @@ Described [here](https://chris.beams.io/posts/git-commit/).
 There are many such conventions, but this is the one we use.
 It's pretty straightforward.
 
+#### The Golden Rule of Rebasing
+
+[Don't rebase public branches](https://www.atlassian.com/git/tutorials/merging-vs-rebasing), especially already reviewed commits on GitHub as it will force reviewer to start from scratch during next CR round.
+
 #### Making things resilient to failures in general
 
 <https://blog.cloudflare.com/pipefail-how-a-missing-shell-option-slowed-cloudflare-down/>
